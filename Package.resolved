@@ -1,0 +1,14 @@
+{
+  "originHash" : "e8258dbe0af7667b654a10dbba9a860ab538b03b06d7f2067578d17d1dbac379",
+  "pins" : [
+    {
+      "identity" : "gappsettings",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mohamedaglan2225/GAppSettings",
+      "state" : {
+        "revision" : "014a472bfdfc4fd7497953575e8d036099ef5e5e"
+      }
+    }
+  ],
+  "version" : 3
+}
