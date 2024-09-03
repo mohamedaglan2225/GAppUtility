@@ -18,7 +18,7 @@ To integrate `GAppUtility` into your project using Swift Package Manager, add it
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourusername/GAppUtility.git", from: "1.0.0")
+    .package(url: "https://github.com/mohamedaglan2225/GAppUtility.git", from: "1.0.0")
 ]
 ```
 
