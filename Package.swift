@@ -15,13 +15,9 @@ let package = Package(
             name: "GAppUtility",
             targets: ["GAppUtility"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/mohamedaglan2225/GAppSettings.git", from: "1.0.1")
-    ],
     targets: [
         .target(
-            name: "GAppUtility",
-            dependencies: ["GAppSettings"]
+            name: "GAppUtility"
         ),
         .testTarget(
             name: "GAppUtilityTests",

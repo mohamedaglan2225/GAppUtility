@@ -37,5 +37,17 @@ public struct DeviceInfo {
             return id
         }
     }
+    
+    public static var topViewController: UIViewController? {
+        if var topController = UIApplication.shared.keyWindow?.rootViewController {
+            while let presentedViewController = topController.presentedViewController {
+                topController = presentedViewController
+            }
+            return topController
+        } else {
+            return nil
+        }
+    }
+    
 }
 

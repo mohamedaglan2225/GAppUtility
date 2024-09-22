@@ -19,5 +19,6 @@ extension UINavigationController {
     override open var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return OrientationUtility.getUIInterfaceOrientationMask(UIApplication.shared.statusBarOrientation)
     }
+    
 }
 
